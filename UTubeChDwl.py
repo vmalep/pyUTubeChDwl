@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
-# A python program intended to download all a videos of a given YouTube channel in the current folder.
+# A python program intended to download all a videos of a given YouTube channel.
+# Currently, this script IS NOT WORKING PROPERLY (work in progress).
+# The authors of the script (still learning python programming) cannot be taken responsible for any damage it may produce if you execute it.
 
 #import mechanize
 #import csv
