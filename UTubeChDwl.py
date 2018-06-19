@@ -32,7 +32,7 @@ while True:
 count = 0
 for item in mylines:
     count += 1
-    video_id = re.findall("['gridVideoRenderer']", item)
+    video_id = re.findall("['videoId']", item)
 #    print("Original string: ",text)
     if video_id: print video_id
 
