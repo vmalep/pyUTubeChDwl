@@ -33,7 +33,7 @@ count = 0
 for item in mylines:
     if "VideoId" in item:
         count += 1
-        video_id = re.findall("VideoId", item)
+        video_id = re.findall("\VideoId\b\"\:\"[A-Za-z0-9]+", item)
 #    print("Original string: ",text)
         if video_id: print video_id
 
