@@ -31,7 +31,7 @@ while True:
 
 count = 0
 for item in mylines:
-    if "VideoIdE in item:
+    if "VideoId" in item:
         count += 1
         video_id = re.findall("VideoId", item)
 #    print("Original string: ",text)
